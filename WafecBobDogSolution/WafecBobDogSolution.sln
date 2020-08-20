@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wafec.BobDog.Core.IdentityServer", "Wafec.BobDog.Core.IdentityServer\Wafec.BobDog.Core.IdentityServer.csproj", "{9C7E90E3-6B67-4511-8CAB-572756A64B5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wafec.BobDog.Core", "Wafec.BobDog.Core", "{F22A7709-FE30-4318-974C-964F3A956390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wafec.BobDog.Core.Common", "Wafec.BobDog.Core.Common\Wafec.BobDog.Core.Common.csproj", "{221FA7EA-B247-4ED1-985E-43F83D7FC82C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C7E90E3-6B67-4511-8CAB-572756A64B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C7E90E3-6B67-4511-8CAB-572756A64B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C7E90E3-6B67-4511-8CAB-572756A64B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C7E90E3-6B67-4511-8CAB-572756A64B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221FA7EA-B247-4ED1-985E-43F83D7FC82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221FA7EA-B247-4ED1-985E-43F83D7FC82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221FA7EA-B247-4ED1-985E-43F83D7FC82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221FA7EA-B247-4ED1-985E-43F83D7FC82C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C7E90E3-6B67-4511-8CAB-572756A64B5C} = {F22A7709-FE30-4318-974C-964F3A956390}
+		{221FA7EA-B247-4ED1-985E-43F83D7FC82C} = {F22A7709-FE30-4318-974C-964F3A956390}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {384B1096-8EAD-4639-8222-18CB0ED72EF9}
+	EndGlobalSection
+EndGlobal
