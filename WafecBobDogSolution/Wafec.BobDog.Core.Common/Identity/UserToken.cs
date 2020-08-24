@@ -17,8 +17,6 @@ namespace Wafec.BobDog.Core.Common.Identity
         public long UserID { get; set; }
         [Column("TOKEN")]
         public string Token { get; set; }
-        [Column("REFRESH_TOKEN")]
-        public string RefreshToken { get; set; }
         [Column("EXPIRES_IN")]
         public DateTime ExpiresIn { get; set; }
         [Column("CREATED_AT")]
